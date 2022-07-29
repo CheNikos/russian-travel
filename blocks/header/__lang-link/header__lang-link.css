@@ -2,15 +2,17 @@
     color: rgba(255, 255, 255, 1);
     text-align: right;
     line-height: 28px;
-    margin-top: 46px;
     font-size: 24px;
     font-weight: 400;
-    margin-left: auto;
     text-align: right;
     text-decoration-line: underline;
+    height: 30px;
+    width: 28px;
 }
 
 .header__lang-link:last-child {
     margin-left: 18px;
     text-decoration: none;
+    height: 29px;
+    width: 28px;
 }

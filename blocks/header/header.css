@@ -1,5 +1,8 @@
 .header {
-    display: flex;
+    display: grid;
+    align-items: end;
+    grid-template-columns: 93% 3% 3%;
     margin: 28px 48px 0 48px;
-    position: relative;
+    width: 1184px;
+    height: 52px;
 }
