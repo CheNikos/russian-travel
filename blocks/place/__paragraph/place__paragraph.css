@@ -1,0 +1,10 @@
+.place__paragraph {
+    
+    outline: 1px solid red;
+    color: rgba(255, 255, 255, 1);
+    text-align: start;
+    line-height: 29.34px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 484px;
+}

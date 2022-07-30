@@ -1,0 +1,12 @@
+.place__url-heading_website {
+    
+    outline: 1px solid red;
+    color: rgba(170, 170, 170, 1);
+    text-align: start;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 20%;
+    width: 456px;
+    height: 12px;
+}
