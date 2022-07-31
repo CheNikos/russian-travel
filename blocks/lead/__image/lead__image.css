@@ -1,10 +1,11 @@
 .lead__image {
-    background-image: url(../../../images/kalegin-michail-179870-unsplash\ \(1\).jpg);
-    margin: auto auto;
-    background-size: contain;
+    background-image: url(../../../images/Group\ 4.svg);
     background-repeat: no-repeat;
     object-fit: cover;
-    max-width: calc(984px-(56.5+41.5));
     outline: 1px solid red;
+    max-width: 984px;
+    max-height: 615px;
+    width: 100%;
+    margin: 0 auto 0 auto;
     }
 }
