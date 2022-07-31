@@ -6,4 +6,5 @@ font-size: 10px;
 font-weight: 400;
 text-transform: uppercase;
 letter-spacing: 15%;
+outline: 1px solid red;
 }

@@ -6,5 +6,29 @@
     font-weight: 900;
     width: 720px;
     height: 200px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
+    
+outline: 1px solid red;
 }
+
+@media all and (max-width: 1024px) {
+    .lead__title { 
+      margin: 48px 48px 0 48px;
+   }
+  }
+
+@media all and (max-width: 768px) {
+    .lead__title {
+      margin: 0 24px 32px 24px;
+   }
+  }
+
+  @media all and (max-width: 425px){
+    .lead__title {
+      margin: 0 16px 16px 16px;
+      height: 88px;
+      line-height: 44px;
+      font-size: 40px;
+      font-weight: 900;
+   }
+  }

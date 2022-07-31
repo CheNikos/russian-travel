@@ -1,8 +1,33 @@
 .header {
     display: grid;
-    align-items: end;
-    grid-template-columns: 93% 3% 3%;
-    margin: 28px 48px 0 48px;
-    width: 1184px;
+    grid-template-columns: 90% 5% 5%;
+    align-items: center;
+    grid-area: header;
     height: 52px;
+    margin: 28px 48px 0px 48px;
 }
+
+@media all and (max-width: 1024px) {
+    .header { 
+      position: relative;
+      grid-template-columns: 86% 7% 7%;
+      height: 52px;
+      margin: 28px 48px 0 48px;
+   }
+  }
+
+@media all and (max-width: 768px) {
+    .header {
+      grid-template-columns: 75% 50px 50px;
+      height: 52px;
+      margin: 28px 24px 0 24px;
+   }
+  }
+
+  @media all and (max-width: 425px){
+    .header {
+      grid-template-columns: 68% 16% 16%;
+      height: 42px;
+      margin: 16px 16px 0 16px;
+   }
+  }

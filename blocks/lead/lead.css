@@ -1,5 +1,30 @@
 .lead {
     margin: 56px 148px 0 148px;
-    width: 984px;
     height: 1005px;
+    grid-area: lead;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    outline: 1px solid red;
 }
+
+
+@media all and (max-width: 1024px) {
+    .lead { 
+      height: 962px;
+      margin: 48px 48px 0 48px;
+   }
+  }
+
+@media all and (max-width: 768px) {
+    .lead {
+      height: 862px;
+      margin: 48px 0 0 0;
+   }
+  }
+
+  @media all and (max-width: 425px){
+    .lead {
+      height: 406px;
+      margin: 48px 0 0 0;
+   }
+  }

@@ -3,4 +3,5 @@
     width: 690px;
     height: 429px;
     text-align: start;
+    grid-area: intro;
 }
