@@ -29,18 +29,26 @@
   @media all and (max-width: 700px) {
     .header { 
       position: relative;
-      grid-template-columns: 86% 7% 7%;
+      grid-template-columns: 84% 8% 8%;
       height: 52px;
       margin: 28px 24px 0 24px;
    }
   }
 
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 600px) {
     .header { 
       position: relative;
-      grid-template-columns: 75% 12.5% 12.5%;
+      grid-template-columns: 80% 10% 10%;
       height: 52px;
       margin: 28px 24px 0 24px;
+   }
+  }
+
+  @media all and (max-width: 525px){
+    .header {
+      grid-template-columns: 70% 15% 15%;
+      height: 42px;
+      margin: 16px 16px 0 16px;
    }
   }
 
