@@ -1,9 +1,8 @@
 .lead {
     margin: 56px 148px 0 148px;
-    height: 100vh;
+    height: 1005px;
     grid-area: lead;
-    display: block;
-    outline: 1px solid red;
+    display: inline-block;
 }
 
 
@@ -21,8 +20,9 @@
    }
   }
 
-  @media all and (max-width: 500px){
+  @media all and (max-width: 425px){
     .lead {
       margin: 48px 0 0 0;
+      height: 406px;
    }
   }

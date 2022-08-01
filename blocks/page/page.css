@@ -3,7 +3,6 @@
     margin: 0 auto;
     background-color: rgba(42, 44, 47, 1);
     font-family: 'Inter', sans-serif;
-    outline: 1px solid red;
     display: grid;
     grid-template-areas: 
     "header"
