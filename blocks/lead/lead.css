@@ -1,28 +1,37 @@
 .lead {
-    margin: 56px 148px 0 148px;
-    height: 1005px;
+    margin: 56px auto 0 auto;
+    min-height: 1005px;
+    max-width: 984px;
+    width: 100%;
     grid-area: lead;
     display: inline-block;
+    outline: 1px solid red;
+    margin: 56px auto 0 auto;
 }
 
+@media all and (max-width: 1280px) {
+  .lead { 
+    min-height: 962px;
+    max-width: 928px;
+    width: 100%;
+    margin: 48px auto 0 auto;
+ }
+}
 
 @media all and (max-width: 1024px) {
     .lead { 
-      height: 962px;
-      margin: 48px 48px 0 48px;
+      min-height: 862px;
+      max-width: 768px;
+      width: 100%;
+      margin: 48px auto 0 auto;
    }
   }
 
 @media all and (max-width: 768px) {
     .lead {
-      height: 862px;
+      min-height: 862px;
+      max-width: 768px;
+      width: 100%;
       margin: 48px 0 0 0;
-   }
-  }
-
-  @media all and (max-width: 425px){
-    .lead {
-      margin: 48px 0 0 0;
-      height: 406px;
    }
   }

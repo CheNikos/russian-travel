@@ -4,29 +4,32 @@
     background-position: 50% 25%;
     background-size: 100%;
     max-width: 984px;
-    max-height: 615px;
-    height: 100%;
     width: 100%;
+    min-height: 615px;
     margin: 0 auto 0 auto;
+    outline: 1px solid red;
+    }
+
+    @media all and (max-width: 1280px) {
+      .lead__image { 
+       max-width: 928px;
+       width: 100%;
+       min-height: 580px;
+     }
     }
 
     @media all and (max-width: 1024px) {
         .lead__image { 
-         max-width: 928px;
-         max-height: 580px;
+         max-width: 768px;
+         width: 100%;
+         min-height: 480px;
        }
       }
 
     @media all and (max-width: 768px) {
         .lead__image {
-            width: 100vw;
-            max-height: 480px;
-       }
-      }
-    
-      @media all and (max-width: 425px){
-        .lead__image {
-            width: 100vw;
-            max-height: 200px;
+           max-width: 320px;
+           width: 100%;
+           min-height: 200px;
        }
       }
