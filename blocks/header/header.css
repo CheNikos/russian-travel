@@ -1,59 +1,36 @@
 .header {
-    display: grid;
-    grid-template-columns: 90% 5% 5%;
+    display: flex;
+    justify-content: end;
     align-items: center;
     grid-area: header;
-    height: 52px;
-    margin: 28px 48px 0px 48px;
+    min-height: 52px;
+    max-width: 1184px;
+    width: 100%;
+    margin: 28px auto 0px auto;
+}
+
+@media all and (max-width: 1280px) {
+  .header { 
+    max-width: 928px;
+ }
 }
 
 @media all and (max-width: 1024px) {
     .header { 
-      position: relative;
-      grid-template-columns: 86% 7% 7%;
-      height: 52px;
-      margin: 28px 48px 0 48px;
+     max-width: 720px;
    }
   }
 
 @media all and (max-width: 768px) {
     .header {
-      grid-template-columns: 80 10% 10%;
-      height: 52px;
-      margin: 28px 24px 0 24px;
-   }
-  }
-
-  @media all and (max-width: 700px) {
-    .header { 
-      position: relative;
-      grid-template-columns: 84% 8% 8%;
-      height: 52px;
-      margin: 28px 24px 0 24px;
-   }
-  }
-
-  @media all and (max-width: 600px) {
-    .header { 
-      position: relative;
-      grid-template-columns: 80% 10% 10%;
-      height: 52px;
-      margin: 28px 24px 0 24px;
-   }
-  }
-
-  @media all and (max-width: 525px){
-    .header {
-      grid-template-columns: 70% 15% 15%;
-      height: 42px;
-      margin: 16px 16px 0 16px;
+     max-width: 288px;
    }
   }
 
   @media all and (max-width: 425px){
     .header {
-      grid-template-columns: 68% 16% 16%;
-      height: 42px;
-      margin: 16px 16px 0 16px;
+      max-width: 288px;
+      min-height: 42px;
+      margin: 16px auto 0 auto;
    }
   }

@@ -1,21 +1,23 @@
 .intro__list {
-    height: 90px;
+    display: block;
     width: 100%;
     line-height: 18px;
     font-size: 12px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
-    margin-top: 33px;
+    outline: 1px solid red;
+}
+
+.intro__list:first-child {
+  margin-top: 33px;
 }
 
 @media all and (max-width: 768px) {
     .intro__list {
-      height: 90px;
    }
   }
 
   @media all and (max-width: 425px){
     .intro__list {
-       height: 90px;
    }
   }
