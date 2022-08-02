@@ -5,16 +5,4 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
     margin-top: 40px;
-    
-    outline: 1px solid red;
 }
-
-@media all and (max-width: 768px) {
-    .intro__text {
-   }
-  }
-
-  @media all and (max-width: 425px){
-    .intro__text {
-   }
-  }

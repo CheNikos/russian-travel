@@ -5,14 +5,7 @@
     font-weight: 900;
     margin-top: 0;
     color: rgba(255, 255, 255, 1);
-    
-    outline: 1px solid red;
 }
-
-@media all and (max-width: 768px) {
-    .intro__title {
-   }
-  }
 
   @media all and (max-width: 425px){
     .intro__title {

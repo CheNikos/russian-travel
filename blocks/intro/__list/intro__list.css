@@ -5,19 +5,8 @@
     font-size: 12px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
-    outline: 1px solid red;
 }
 
 .intro__list:first-child {
   margin-top: 33px;
 }
-
-@media all and (max-width: 768px) {
-    .intro__list {
-   }
-  }
-
-  @media all and (max-width: 425px){
-    .intro__list {
-   }
-  }
