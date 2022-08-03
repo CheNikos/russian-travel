@@ -1,11 +1,10 @@
 .lead {
-    margin: 56px auto 0 auto;
     min-height: 1005px;
     max-width: 984px;
     width: 100%;
-    grid-area: lead;
-    display: inline-block;
+    display: block;
     margin: 56px auto 0 auto;
+    outline: 1px solid red;
 }
 
 @media all and (max-width: 1280px) {

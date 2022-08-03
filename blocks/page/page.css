@@ -4,15 +4,7 @@
     margin: auto;
     background-color: rgba(42, 44, 47, 1);
     font-family: 'Inter', sans-serif;
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "lead"
-    "intro"
-    "photo-grid"
-    "places"
-    "cover"
-    "footer";
+    display: block;
     grid-template-columns: 1fr;
     min-height: 100%;
     

@@ -2,7 +2,6 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    grid-area: header;
     min-height: 52px;
     max-width: 1184px;
     width: 100%;
