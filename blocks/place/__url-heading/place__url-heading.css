@@ -1,5 +1,4 @@
 .place__url-heading {
-    outline: 1px solid red;
     color: rgba(170, 170, 170, 1);
     text-align: start;
     line-height: 12px;
@@ -7,6 +6,8 @@
     font-weight: 400;
     letter-spacing: 20%;
     max-width: 456px;
+    margin-top: 0;
+    margin-bottom: 12px;
 }
 
 @media all and (max-width: 1024px) {

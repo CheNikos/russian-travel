@@ -1,5 +1,4 @@
 .place__paragraph {
-    outline: 1px solid red;
     color: rgba(255, 255, 255, 1);
     text-align: start;
     line-height: 29.34px;
@@ -7,19 +6,21 @@
     font-weight: 400;
     max-width: 484px;
     margin-top: 0;
+    margin-bottom: 26px;
 }
 
-.place__paragraph:first-child {
-  margin-bottom: 26px;
+.place__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 @media all and (max-width: 1280px) {
     .place__paragraph { 
       max-width: 456px;
-   }
-   .place__paragraph:first-child {
-    margin-bottom: 27px;
-  }
+      margin-bottom: 27px;
+    }
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
   }
 
 @media all and (max-width: 1024px) {
@@ -27,21 +28,28 @@
       max-width: 352px;
       line-height: 26.08px;
       font-size: 16px;
+      margin-bottom: 25px;
+    }
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
    }
-   .place__paragraph:first-child {
-    margin-bottom: 25px;
-  }
-  }
 
+   
 @media all and (max-width: 768px) {
     .place__paragraph {
       max-width: 288px;
-      margin: auto;
+   }
+   .place__paragraph:last-child {
+     margin-bottom: 0;
    }
   }
 
   @media all and (max-width: 425px) {
     .place__paragraph {
       max-width: 288px;
+   }
+   .place__paragraph:last-child {
+     margin-bottom: 0;
    }
   }

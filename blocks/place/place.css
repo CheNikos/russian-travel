@@ -1,20 +1,19 @@
 .place {
-    outline: 1px solid red;
     display: grid;
     max-width: 984px;
-    min-height: 660px;
-    align-items: start;
+    max-height: 660px;
     grid-template-columns: 460px 484px;
-    grid-template-rows: 152px 460px;
+    grid-template-rows: auto auto;
     gap: 48px 40px;
+    margin-bottom: 80px;
 }
 
 @media all and (max-width: 1280px) {
     .place { 
         max-width: 928px;
-        min-height: 640px;
+        max-height: 640px;
         grid-template-columns: 440px 456px;
-        grid-template-rows: 152px 440px;
+        grid-template-rows: auto auto;
         gap: 48px 32px;
    }
   }
@@ -22,9 +21,9 @@
   @media all and (max-width: 1024px) {
       .place { 
         max-width: 720px;
-        min-height: 581px;
+        max-height: 581px;
         grid-template-columns: 340px 352px;
-        grid-template-rows: 340px 434px;
+        grid-template-rows: auto auto;
         gap: 48px 28px;
      }
     }
@@ -32,9 +31,9 @@
   @media all and (max-width: 768px) {
       .place {
         max-width: 320px;
-        min-height: 1042px;
+        max-height: 1020px;
         grid-template-columns: 320px;
-        grid-template-rows: 288px 288px 320px 288px;
+        grid-template-rows: 35px 46px 320px calc(208px + 25px + 312px);
         gap: 32px;
         margin-bottom: 50px;
      }
@@ -43,9 +42,9 @@
     @media all and (max-width: 425px) {
       .place {
         max-width: 320px;
-        min-height: 1042px;
+        min-height: 1020px;
         grid-template-columns: 320px;
-        grid-template-rows: 288px 288px 320px 288px;
+        grid-template-rows: 35px 46px 320px calc(208px + 25px + 312px);
         gap: 32px;
         margin-bottom: 50px;
      }

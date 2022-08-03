@@ -1,5 +1,4 @@
 .place__image {
-    outline: 1px solid red;
     max-width: 460px;
     min-height: 460px;
 }
@@ -22,6 +21,7 @@
       .place__image {
         max-width: 320px;
         min-height: 320px;
+        margin: 0 auto 0 auto;
      }
     }
   
@@ -29,5 +29,6 @@
       .place__image {
         max-width: 320px;
         min-height: 320px;
+        margin: 0 auto 0 auto;
      }
     }
