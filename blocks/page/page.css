@@ -7,6 +7,4 @@
     display: block;
     grid-template-columns: 1fr;
     min-height: 100%;
-    
-outline: 1px solid red;
   } 

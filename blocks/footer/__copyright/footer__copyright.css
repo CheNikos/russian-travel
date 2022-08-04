@@ -4,6 +4,10 @@
     font-size: 14px;
     font-weight: 400;
     margin-left: auto;
-    
-    outline: 1px solid red;
 }
+
+@media all and (max-width: 768px) {
+    .footer__copyright {
+    margin-left: 0;
+     }
+    }

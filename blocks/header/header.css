@@ -7,7 +7,6 @@
     width: 100%;
     padding-top: 28px;
     margin: 0 auto 0 auto;
-    outline: 1px solid red;
 }
 
 @media all and (max-width: 1280px) {
@@ -30,9 +29,7 @@
 
   @media all and (max-width: 425px){
     .header {
-      max-width: 288px;
       min-height: 42px;
       padding-top: 16px;
-      margin: 0 auto 0 auto;
    }
   }

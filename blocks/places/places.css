@@ -2,7 +2,6 @@
     max-width: 984px;
     min-height: 3392px;
     margin: 0 auto 0 auto;
-    outline: 1px solid red;
     padding-top: 92px;
 }
 
@@ -18,7 +17,6 @@
         max-width: 720px;
         min-height: 2808px;
         padding-top: 88px;
-        margin: 0 auto 0 auto;
      }
     }
   
@@ -27,7 +25,6 @@
         max-width: 320px;
         max-height: 5177px;
         padding-top: 64px;
-        margin: 0 auto 0 auto;
      }
     }
   

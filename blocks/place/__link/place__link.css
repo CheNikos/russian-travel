@@ -7,6 +7,11 @@
     max-width: 456px;
 }
 
+.place__link:hover {
+  transition: 1s;
+  opacity: 0.8;
+}
+
   @media all and (max-width: 1024px) {
       .place__link { 
         max-width: 352px;

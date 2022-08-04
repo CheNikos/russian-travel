@@ -37,7 +37,7 @@
         max-width: 320px;
         max-height: 1020px;
         grid-template-columns: 320px;
-        grid-template-rows: 35px 46px 320px calc(208px + 25px + 312px);
+        grid-template-rows: 35px 46px 320px min-content;
         gap: 32px;
         margin-bottom: 50px;
      }
