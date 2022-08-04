@@ -1,0 +1,46 @@
+.cover {
+    outline: 1px solid red;
+    padding-top: 92px;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url(../../images/__overlay_cover.svg), url(../../images/__background_cover.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1280px) {
+    .cover { 
+      min-height: 640px;
+      max-width: 1024px;
+      width: 100%;
+   }
+  }
+  
+  @media all and (max-width: 1024px) {
+      .cover { 
+        min-height: 480px;
+        max-width: 768px;
+        width: 100%;
+        padding-top: 90px;
+     }
+    }
+  
+  @media all and (max-width: 768px) {
+      .cover {
+        min-height: 200px;
+        max-width: 320px;
+        width: 100%;
+        padding-top: 66px;
+     }
+    }
+  
+    @media all and (max-width: 425px) {
+      .cover {
+        min-height: 200px;
+        max-width: 320px;
+        width: 100%;
+        padding-top: 66px;
+     }
+    }

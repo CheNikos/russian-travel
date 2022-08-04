@@ -1,0 +1,9 @@
+.footer__copyright {
+    color: rgba(255, 255, 255, 1);
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: auto;
+    
+    outline: 1px solid red;
+}
