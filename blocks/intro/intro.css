@@ -3,7 +3,6 @@
     padding-top: 92px;
     max-width: 690px;
     width: 100%;
-    min-height: 429px;
     text-align: start;
     text-decoration: none;
 }
@@ -11,7 +10,6 @@
 @media all and (max-width: 1024px) {
     .intro { 
       max-width: 690px;
-      min-height: 429px;
       margin: 0 auto 0 48px;
    }
   }
@@ -19,7 +17,6 @@
 @media all and (max-width: 768px) {
     .intro {
       max-width: 720px;
-      min-height: 429px;
       padding-top: 88px;
       margin: 0 auto 0 auto;
    }
@@ -28,8 +25,6 @@
   @media all and (max-width: 425px){
     .intro {
       max-width: 288px;
-      min-height: 754px;
-      margin: 0 auto 0 auto;
       padding-top: 64px;
    }
   }

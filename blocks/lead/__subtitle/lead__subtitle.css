@@ -6,24 +6,20 @@
     font-weight: 400;
     margin: 32px auto 64px auto;
     max-width: 640px;
-    min-height: 72px;
     width: 100%;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
     .lead__subtitle { 
     margin: 32px auto 56px auto;
    }
   }
 
-  @media all and (max-width: 768px){
+  @media all and (max-width: 767px){
     .lead__subtitle {
       max-width: 288px;
-      width: 100%;
-      min-height: 40px;
       line-height: 20px;
       font-size: 16px;
-      font-weight: 400;
       margin: 16px auto 40px auto;
    }
   }

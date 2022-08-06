@@ -5,18 +5,13 @@
     font-size: 96px;
     font-weight: 900;
     max-width: 720px;
-    width: 100%;
-    min-height: 200px;
     margin: 0 auto;
 }
 
-  @media all and (max-width: 768px){
+  @media all and (max-width: 767px){
     .lead__title {
       max-width: 288px;
-      min-height: 88px;
-      width: 100%;
       line-height: 45px;
       font-size: 41px;
-      font-weight: 900;
    }
   }

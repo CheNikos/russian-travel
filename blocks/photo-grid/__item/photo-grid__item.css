@@ -3,30 +3,23 @@
     min-height: 213px;
 }
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
     .photo-grid__item {
     max-width: 300px;
     min-height: 225px;
     }
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
   .photo-grid__item {
   max-width: 352px;
   min-height: 264px;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .photo-grid__item {
   max-width: 288px;
   min-height: 216px;
-   }
-  }
-
-  @media all and (max-width: 425px){
-    .photo-grid__item {
-    max-width: 288px;
-    min-height: 216px;
    }
   }

@@ -9,13 +9,13 @@
     margin-bottom: 0;
 }
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
     .place__title { 
     max-width: 440px;
    }
   }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
     .place__title { 
       max-width: 300px;
       line-height: 46px;
@@ -23,18 +23,11 @@
    }
   }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .place__title {
       max-width: 288px;
       line-height: 35px;
       font-size: 32px;
-      margin: 0 auto 0 auto;
-   }
-  }
-
-  @media all and (max-width: 425px) {
-    .place__title {
-      max-width: 288px;
-      margin: 0 auto 0 auto;
+      margin: 0 auto 0 16px;
    }
   }

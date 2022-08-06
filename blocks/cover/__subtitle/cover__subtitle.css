@@ -9,20 +9,12 @@
     position: relative;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .cover__subtitle { 
-        margin: 16px auto 33px auto;
+        margin: 16px auto 0 auto;
         font-size: 14px;
         line-height: 16px;
         max-width: 260px;
-   }
-  }
-
-@media all and (max-width: 425px) {
-    .cover__subtitle { 
-        margin: 16px auto 33px auto;
-        font-size: 14px;
-        line-height: 16px;
-        max-width: 260px;
+        text-align: center;
    }
   }

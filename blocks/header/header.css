@@ -2,34 +2,34 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    min-height: 52px;
+    max-height: 52px;
     max-width: 1184px;
     width: 100%;
     padding-top: 28px;
     margin: 0 auto 0 auto;
 }
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
   .header { 
     max-width: 928px;
  }
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
     .header { 
      max-width: 720px;
    }
   }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .header {
      max-width: 288px;
    }
   }
 
-  @media all and (max-width: 425px){
+  @media all and (max-width: 424px){
     .header {
-      min-height: 42px;
+      max-height: 42px;
       padding-top: 16px;
    }
   }

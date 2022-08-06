@@ -1,36 +1,25 @@
 .places {
     max-width: 984px;
-    min-height: 3392px;
     margin: 0 auto 0 auto;
     padding-top: 92px;
 }
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
     .places { 
         max-width: 928px;
-        min-height: 3292px;
    }
   }
   
-  @media all and (max-width: 1024px) {
+  @media all and (max-width: 1023px) {
       .places { 
         max-width: 720px;
-        min-height: 2808px;
         padding-top: 88px;
      }
     }
   
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 767px) {
       .places {
         max-width: 320px;
-        max-height: 5177px;
         padding-top: 64px;
-     }
-    }
-  
-    @media all and (max-width: 425px) {
-      .places {
-        max-width: 320px;
-        max-height: 5177px;
      }
     }

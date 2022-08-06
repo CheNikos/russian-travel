@@ -4,25 +4,20 @@
     line-height: 12px;
     font-size: 12px;
     font-weight: 400;
-    letter-spacing: 20%;
+    letter-spacing: 0.20px;
     max-width: 456px;
     margin-top: 0;
     margin-bottom: 12px;
+    text-transform: uppercase;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
     .place__url-heading { 
       max-width: 352px;
    }
   }
 
-@media all and (max-width: 768px) {
-    .place__url-heading {
-      max-width: 288px;
-   }
-  }
-
-  @media all and (max-width: 425px) {
+@media all and (max-width: 767px) {
     .place__url-heading {
       max-width: 288px;
    }

@@ -1,5 +1,4 @@
 .lead {
-    min-height: 1005px;
     max-width: 984px;
     width: 100%;
     display: block;
@@ -7,39 +6,21 @@
     margin: 0 auto 0 auto;
 }
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
   .lead { 
-    min-height: 962px;
     max-width: 928px;
-    width: 100%;
     padding-top: 48px;
-    margin: 0 auto 0 auto;
  }
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
     .lead { 
-      min-height: 862px;
       max-width: 768px;
-      width: 100%;
-      margin: 0 auto 0 auto;
    }
   }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .lead {
-      min-height: 406px;
       max-width: 320px;
-      width: 100%;
-      margin: 0 auto 0 auto;
-   }
-  }
-
-  @media all and (max-width: 425px) {
-    .lead {
-      min-height: 406px;
-      max-width: 320px;
-      width: 100%;
-      margin: 0 auto 0 auto;
    }
   }

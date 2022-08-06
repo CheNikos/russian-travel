@@ -1,42 +1,33 @@
 .lead__image {
-    background-image:url(../../../images/lead/Group4.svg),url(../../../images/lead/kalegin-michail-179870-unsplash.jpg);
+    background-image:url(../../../images/lead/kalegin-michail-179870-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: 50% 25%;
     background-size: 100%;
+    object-fit: contain;
+    object-position: 50% 25%;
     max-width: 984px;
     width: 100%;
     min-height: 615px;
     margin: 0 auto 0 auto;
     }
 
-    @media all and (max-width: 1280px) {
+    @media all and (max-width: 1279px) {
       .lead__image { 
        max-width: 928px;
-       width: 100%;
        min-height: 580px;
      }
     }
 
-    @media all and (max-width: 1024px) {
+    @media all and (max-width: 1023px) {
         .lead__image { 
          max-width: 768px;
-         width: 100%;
          min-height: 480px;
        }
       }
 
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 767px) {
         .lead__image {
            max-width: 320px;
-           width: 100%;
-           min-height: 200px;
-       }
-      }
-
-      @media all and (max-width: 425px) {
-        .lead__image {
-           max-width: 320px;
-           width: 100%;
            min-height: 200px;
        }
       }

@@ -13,43 +13,25 @@
   margin-bottom: 0;
 }
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
     .place__paragraph { 
       max-width: 456px;
       margin-bottom: 27px;
     }
-.place__paragraph:last-child {
-  margin-bottom: 0;
-}
   }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
     .place__paragraph { 
       max-width: 352px;
       line-height: 26.08px;
       font-size: 16px;
       margin-bottom: 25px;
     }
-.place__paragraph:last-child {
-  margin-bottom: 0;
-}
    }
 
    
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .place__paragraph {
       max-width: 288px;
-   }
-   .place__paragraph:last-child {
-     margin-bottom: 0;
-   }
-  }
-
-  @media all and (max-width: 425px) {
-    .place__paragraph {
-      max-width: 288px;
-   }
-   .place__paragraph:last-child {
-     margin-bottom: 0;
    }
   }

@@ -5,6 +5,4 @@
     background-color: rgba(42, 44, 47, 1);
     font-family: 'Inter', sans-serif;
     display: block;
-    grid-template-columns: 1fr;
-    min-height: 100%;
   } 
