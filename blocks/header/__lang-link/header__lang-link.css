@@ -7,6 +7,12 @@
     text-decoration: none;
 }
 
+.header__lang-link:hover {
+    transition: 1s;
+    opacity: 0.8;
+  }
+  
+
 @media all and (max-width: 767px) {
     .header__lang-link {
       line-height: 20px;
