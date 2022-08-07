@@ -1,7 +1,16 @@
 .header__lang-links {
-    display: inline-block;
     list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 18px;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    margin-left: 0;
 }
+
+@media all and (max-width: 767px) {
+    .header__lang-links {
+      margin-bottom: 8px;
+   }
+  }

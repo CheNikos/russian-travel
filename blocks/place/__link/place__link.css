@@ -4,7 +4,6 @@
     line-height: 22px;
     font-size: 18px;
     font-weight: 400;
-    max-width: 456px;
 }
 
 .place__link:hover {
@@ -20,12 +19,6 @@
   
   @media all and (max-width: 767px) {
       .place__link {
-        min-width: 288px;
-     }
-    }
-  
-    @media all and (max-width: 424px) {
-      .place__link {
-        min-width: 288px;
+        justify-self: start;
      }
     }
