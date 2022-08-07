@@ -1,4 +1,4 @@
-.lang-links__lang-link {
+.header__lang-link {
     color: rgba(255, 255, 255, 1);
     text-align: center;
     line-height: 28px;
@@ -8,7 +8,7 @@
 }
 
 @media all and (max-width: 767px) {
-    .lang-links__lang-link {
+    .header__lang-link {
       line-height: 20px;
       font-size: 18px;
    }
